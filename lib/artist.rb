@@ -21,9 +21,7 @@ class Artist
     end 
 
     def self.song_count
-
-    Song.all.count
-     # is a class method that returns the total number of songs associated to all existing artists
+        Song.all.count
     end
 
 end 
